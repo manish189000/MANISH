@@ -1,0 +1,107 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px,80px;
+    background-color: hwb(206 89% 5%);
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.06);
+    z-index: 999;
+  position: sticky;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    
+
+}
+
+#navbar li{
+    position: relative;
+}
+
+#navbar li{
+     display:flex;
+     align-items: center;
+     text-decoration: none;
+     padding: 0 8px;
+     list-style: none;
+     position: relative;
+     
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s;
+}
+
+#navbar li  a:hover,
+#navbar li  a.active{
+
+    color: green;
+
+}
+#navbar li  a.active::after{
+    content: "";
+    width: 30%;
+    height:20%;
+    position:absolute;
+    bottom:-4px;
+    left: 20px;
+
+}
+
+#hero{
+    background-image: url("hero4.png");
+    height: 90vh;
+    width:100%;
+    background-size:cover;
+    background-position: top 25% right 0;
+    padding:0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero h4{
+
+    padding: 15px;
+    
+}
+#hero h1{
+    color: rgb(114, 231, 114);
+}
+
+
+#hero button{
+ background-image: url("button.png");
+ background-color: transparent;
+ color: rgb(114, 231, 114);
+ border: 0;
+ padding: 14px 80px 14px 65px;
+ background-repeat: no-repeat;
+ cursor: pointer;
+ font-weight: 700;
+ font-size: 15px;
+
+}
+
+.section-p1{
+
+    padding: 40px 80px;
+
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding:25px 15px;
+
+    color: rgb(20, 20, 22);
+
+}
+
